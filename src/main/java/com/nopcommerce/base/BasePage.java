@@ -18,6 +18,7 @@ public class BasePage {
 
     public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<WebDriver>();
   //  public WebDriver driver;
+    //laest update 1:30 pm
     public Properties prop;
     public static String highlight;
     public OptionsManager optionsManager;
