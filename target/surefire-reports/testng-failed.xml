@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [nopCommerce Regression Test Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.nopcommerce.testlisteners.ExtentReportListener"/>
+    <listener class-name="com.nopcommerce.testlisteners.AllureReportListener"/>
+  </listeners>
+  <test thread-count="4" verbose="0" name="Loginpage Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.nopcommerce.tests.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="logoutTest"/>
+          <include name="setup"/>
+          <include name="loginPageSetup"/>
+          <include name="validateUserLoginTest"/>
+        </methods>
+      </class> <!-- com.nopcommerce.tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Loginpage Test(failed) -->
+  <test thread-count="4" verbose="0" name="Registerpage Test(failed)" parallel="tests">
+    <classes>
+      <class name="com.nopcommerce.tests.RegisterPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="registerPageSetup"/>
+          <include name="registerNewUserTest" invocation-numbers="1 2"/>
+        </methods>
+      </class> <!-- com.nopcommerce.tests.RegisterPageTest -->
+    </classes>
+  </test> <!-- Registerpage Test(failed) -->
+</suite> <!-- Failed suite [nopCommerce Regression Test Suite] -->

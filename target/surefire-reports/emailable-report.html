@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">nopCommerce Regression Test Suite</th></tr>
+<tr><td><a href="#t0">Homepage Test</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">12,365</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Loginpage Test</a></td><td class="num">3</td><td class="num">0</td><td class="num attn">2</td><td class="num">17,212</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Searchpage Test</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">18,046</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Registerpage Test</a></td><td class="num">2</td><td class="num">0</td><td class="num attn">2</td><td class="num">33,635</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">12</th><th class="num">0</th><th class="num attn">4</th><th class="num">81,258</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">nopCommerce Regression Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Homepage Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.nopcommerce.tests.HomePageTest</td><td><a href="#m0">validatePageTitleTest</a></td><td rowspan="1">1609296183481</td><td rowspan="1">117</td></tr><tr class="passedeven"><td><a href="#m1">verifyLoginLinkTest</a></td><td rowspan="1">1609296184178</td><td rowspan="1">68</td></tr><tr class="passedeven"><td><a href="#m2">verifyLogoTest</a></td><td rowspan="1">1609296183833</td><td rowspan="1">219</td></tr><tr class="passedeven"><td><a href="#m3">verifyRegisterLinkTest</a></td><td rowspan="1">1609296184060</td><td rowspan="1">115</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Loginpage Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.nopcommerce.tests.LoginPageTest</td><td><a href="#m4">logoutTest</a></td><td rowspan="1">1609296188384</td><td rowspan="1">42</td></tr><tr class="failedeven"><td><a href="#m5">validateUserLoginTest</a></td><td rowspan="1">1609296186850</td><td rowspan="1">756</td></tr><tr><th colspan="4">Loginpage Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.nopcommerce.tests.LoginPageTest</td><td><a href="#m6">verifyLoginButtonStatusTest</a></td><td rowspan="1">1609296186728</td><td rowspan="1">50</td></tr><tr class="passedeven"><td><a href="#m7">verifyLoginPageNameTest</a></td><td rowspan="1">1609296184677</td><td rowspan="1">2048</td></tr><tr class="passedeven"><td><a href="#m8">verifyRegisterButtonStatusTest</a></td><td rowspan="1">1609296186780</td><td rowspan="1">66</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Searchpage Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.nopcommerce.tests.SearchPageTest</td><td><a href="#m9">verifyManufacturerDropDownListTest</a></td><td rowspan="1">1609296185692</td><td rowspan="1">4235</td></tr><tr class="passedeven"><td><a href="#m10">verifyManufacturesListTest</a></td><td rowspan="1">1609296189931</td><td rowspan="1">58</td></tr><tr class="passedeven"><td><a href="#m11">verifySearchPageNameTest</a></td><td rowspan="1">1609296185023</td><td rowspan="1">664</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Registerpage Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">com.nopcommerce.tests.RegisterPageTest</td><td><a href="#m12">registerNewUserTest</a></td><td rowspan="2">1609296202180</td><td rowspan="2">2730</td></tr><tr class="failedeven"><td><a href="#m13">registerNewUserTest</a></td></tr><tr><th colspan="4">Registerpage Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.nopcommerce.tests.RegisterPageTest</td><td><a href="#m14">registerNewUserTest</a></td><td rowspan="1">1609296188899</td><td rowspan="1">9710</td></tr><tr class="passedeven"><td><a href="#m15">verifyRegisterPageNameTest</a></td><td rowspan="1">1609296184724</td><td rowspan="1">3060</td></tr></tbody>
+</table>
+<h2>Homepage Test</h2><h3 id="m0">com.nopcommerce.tests.HomePageTest#validatePageTitleTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.nopcommerce.tests.HomePageTest#verifyLoginLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.nopcommerce.tests.HomePageTest#verifyLogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.nopcommerce.tests.HomePageTest#verifyRegisterLinkTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Loginpage Test</h2><h3 id="m4">com.nopcommerce.tests.LoginPageTest#logoutTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log out&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4TKG998&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Elshat\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a6aaa651a661d05ed6cab5be5bb74ad5
+*** Element info: {Using=link text, value=Log out}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.nopcommerce.utils.ElementUtil.getElement(ElementUtil.java:19)
+	at com.nopcommerce.utils.ElementUtil.doClick(ElementUtil.java:31)
+	at com.nopcommerce.pages.HomePage.doLogout(HomePage.java:67)
+	at com.nopcommerce.tests.LoginPageTest.logoutTest(LoginPageTest.java:41)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.nopcommerce.tests.LoginPageTest#validateUserLoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log out&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4TKG998&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Elshat\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59476}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a6aaa651a661d05ed6cab5be5bb74ad5
+*** Element info: {Using=link text, value=Log out}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.nopcommerce.utils.ElementUtil.getElement(ElementUtil.java:19)
+	at com.nopcommerce.utils.ElementUtil.doIsDisplayed(ElementUtil.java:35)
+	at com.nopcommerce.pages.HomePage.verifyLogoutLink(HomePage.java:61)
+	at com.nopcommerce.tests.LoginPageTest.validateUserLoginTest(LoginPageTest.java:36)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.nopcommerce.tests.LoginPageTest#verifyLoginButtonStatusTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.nopcommerce.tests.LoginPageTest#verifyLoginPageNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.nopcommerce.tests.LoginPageTest#verifyRegisterButtonStatusTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Searchpage Test</h2><h3 id="m9">com.nopcommerce.tests.SearchPageTest#verifyManufacturerDropDownListTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.nopcommerce.tests.SearchPageTest#verifyManufacturesListTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">com.nopcommerce.tests.SearchPageTest#verifySearchPageNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Registerpage Test</h2><h3 id="m12">com.nopcommerce.tests.RegisterPageTest#registerNewUserTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>Female</td><td>Ashley</td><td>Lang</td><td>10</td><td>June</td><td>1980</td><td>a@google.com</td><td>Facebook</td><td>Test#1234</td></tr><tr><th colspan="9">Exception</th></tr><tr><td colspan="9"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;register-continue&apos;]&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4TKG998&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Elshat\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 07d1d5f238527d87a9ef3698835dd81b
+*** Element info: {Using=name, value=register-continue}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.nopcommerce.utils.ElementUtil.getElement(ElementUtil.java:19)
+	at com.nopcommerce.utils.ElementUtil.doClick(ElementUtil.java:31)
+	at com.nopcommerce.pages.RegisterPage.registerNewUser(RegisterPage.java:56)
+	at com.nopcommerce.tests.RegisterPageTest.registerNewUserTest(RegisterPageTest.java:24)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">com.nopcommerce.tests.RegisterPageTest#registerNewUserTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>Female</td><td>Katrina</td><td>Ferguson</td><td>12</td><td>March</td><td>1975</td><td>k@yahoo.com</td><td>Yahoo</td><td>Test@1234</td></tr><tr><th colspan="9">Exception</th></tr><tr><td colspan="9"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;*[name=&apos;register-continue&apos;]&quot;}
+  (Session info: chrome=87.0.4280.88)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-4TKG998&apos;, ip: &apos;172.30.160.1&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_221&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: C:\Users\Elshat\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59471}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 07d1d5f238527d87a9ef3698835dd81b
+*** Element info: {Using=name, value=register-continue}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+	at org.openqa.selenium.By$ByName.findElement(By.java:284)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at com.nopcommerce.utils.ElementUtil.getElement(ElementUtil.java:19)
+	at com.nopcommerce.utils.ElementUtil.doClick(ElementUtil.java:31)
+	at com.nopcommerce.pages.RegisterPage.registerNewUser(RegisterPage.java:56)
+	at com.nopcommerce.tests.RegisterPageTest.registerNewUserTest(RegisterPageTest.java:24)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">com.nopcommerce.tests.RegisterPageTest#registerNewUserTest</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th><th>Parameter #6</th><th>Parameter #7</th><th>Parameter #8</th><th>Parameter #9</th></tr><tr class="param stripe"><td>Male</td><td>John</td><td>Smith</td><td>23</td><td>December</td><td>1960</td><td>j@hotmail.com</td><td>Google</td><td>Test!1234</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">com.nopcommerce.tests.RegisterPageTest#verifyRegisterPageNameTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
